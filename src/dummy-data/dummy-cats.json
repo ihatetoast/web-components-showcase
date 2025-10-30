@@ -1,0 +1,661 @@
+
+[
+  {
+    "id": "c1",
+    "name": "Kate",
+    "likes": [
+      "zoomies",
+      "hiding in boxes",
+      "pizza"
+    ],
+    "dislikes": [
+      "cucumbers",
+      "loud noises",
+      "being picked up"
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "Lara",
+    "likes": [
+      "naps",
+      "string toys"
+    ],
+    "dislikes": [
+      "closed doors"
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "Nancy",
+    "likes": [
+      "stealing socks",
+      "zoomies",
+      "attention",
+      "cardboard boxes"
+    ],
+    "dislikes": [
+      "baths"
+    ]
+  },
+  {
+    "id": "c4",
+    "name": "Mary",
+    "likes": [
+      "warm laundry",
+      "midnight snacks",
+      "kneading"
+    ],
+    "dislikes": [
+      "vet visits",
+      "rain"
+    ]
+  },
+  {
+    "id": "c5",
+    "name": "Andrew",
+    "likes": [
+      "naps",
+      "midnight snacks",
+      "purring"
+    ],
+    "dislikes": [
+      "closed doors",
+      "empty food bowls",
+      "early mornings"
+    ]
+  },
+  {
+    "id": "c6",
+    "name": "Clare",
+    "likes": [
+      "belly rubs",
+      "naps"
+    ],
+    "dislikes": [
+      "rain"
+    ]
+  },
+  {
+    "id": "c7",
+    "name": "Sharon",
+    "likes": [
+      "laser chase",
+      "treats"
+    ],
+    "dislikes": [
+      "being ignored"
+    ]
+  },
+  {
+    "id": "c8",
+    "name": "Marsha",
+    "likes": [
+      "head pats",
+      "soft blankets",
+      "purring",
+      "belly rubs"
+    ],
+    "dislikes": [
+      "empty food bowls",
+      "rain"
+    ]
+  },
+  {
+    "id": "c9",
+    "name": "Pat",
+    "likes": [
+      "stealing socks",
+      "belly rubs",
+      "midnight snacks",
+      "purring"
+    ],
+    "dislikes": [
+      "early mornings",
+      "loud noises"
+    ]
+  },
+  {
+    "id": "c1"0,
+    "name": "Boyce",
+    "likes": [
+      "hiding in boxes",
+      "kneading"
+    ],
+    "dislikes": [
+      "being picked up",
+      "empty food bowls"
+    ]
+  },
+  {
+    "id": "c1"1,
+    "name": "Ken",
+    "likes": [
+      "treats",
+      "hiding in boxes",
+      "zoomies",
+      "purring"
+    ],
+    "dislikes": [
+      "yappy dogs",
+      "baths"
+    ]
+  },
+  {
+    "id": "c1"2,
+    "name": "Richard",
+    "likes": [
+      "belly rubs",
+      "stealing socks",
+      "hiding in boxes",
+      "attention"
+    ],
+    "dislikes": [
+      "sharing food",
+      "baths"
+    ]
+  },
+  {
+    "id": "c1"3,
+    "name": "Ellen",
+    "likes": [
+      "hiding in boxes",
+      "cardboard boxes",
+      "head pats",
+      "warm laundry"
+    ],
+    "dislikes": [
+      "being ignored"
+    ]
+  },
+  {
+    "id": "c1"4,
+    "name": "Josh",
+    "likes": [
+      "laser chase",
+      "stealing socks",
+      "string toys",
+      "cardboard boxes"
+    ],
+    "dislikes": [
+      "being picked up",
+      "loud noises"
+    ]
+  },
+  {
+    "id": "c1"5,
+    "name": "Britany",
+    "likes": [
+      "stealing socks",
+      "treats",
+      "string toys"
+    ],
+    "dislikes": [
+      "being ignored",
+      "rain"
+    ]
+  },
+  {
+    "id": "c1"6,
+    "name": "Jess",
+    "likes": [
+      "purring",
+      "sunbeams",
+      "treats"
+    ],
+    "dislikes": [
+      "sharing food",
+      "baths",
+      "dogs that make a mess"
+    ]
+  },
+  {
+    "id": "c1"7,
+    "name": "Mochi",
+    "likes": [
+      "stealing socks",
+      "sunbeams",
+      "laser chase"
+    ],
+    "dislikes": [
+      "rain",
+      "cold floors"
+    ]
+  },
+  {
+    "id": "c1"8,
+    "name": "Whiskerella",
+    "likes": [
+      "head pats",
+      "window watching"
+    ],
+    "dislikes": [
+      "empty food bowls"
+    ]
+  },
+  {
+    "id": "c1"9,
+    "name": "Sir Pounce",
+    "likes": [
+      "head pats",
+      "snuggling"
+    ],
+    "dislikes": [
+      "sharing food",
+      "vacuum cleaners",
+      "being picked up"
+    ]
+  },
+  {
+    "id": "c2"0,
+    "name": "Mittens",
+    "likes": [
+      "purring",
+      "hiding in boxes",
+      "treats",
+      "bird videos"
+    ],
+    "dislikes": [
+      "rain",
+      "baths",
+      "dogs that don't believe she's a goddess"
+    ]
+  },
+  {
+    "id": "c2"1,
+    "name": "Cinnamon",
+    "likes": [
+      "bird videos",
+      "naps",
+      "hiding in boxes",
+      "stealing socks"
+    ],
+    "dislikes": [
+      "cold floors",
+      "vacuum cleaners",
+      "closed doors"
+    ]
+  },
+  {
+    "id": "c2"2,
+    "name": "Pickles",
+    "likes": [
+      "naps",
+      "bird videos"
+    ],
+    "dislikes": [
+      "vacuum cleaners",
+      "rain"
+    ]
+  },
+  {
+    "id": "c2"3,
+    "name": "Nugget",
+    "likes": [
+      "head pats",
+      "stealing socks",
+      "belly rubs",
+      "window watching"
+    ],
+    "dislikes": [
+      "vacuum cleaners",
+      "being ignored",
+      "cold floors"
+    ]
+  },
+  {
+    "id": "c2"4,
+    "name": "Pepper",
+    "likes": [
+      "midnight snacks",
+      "cardboard boxes"
+    ],
+    "dislikes": [
+      "being ignored",
+      "being picked up"
+    ]
+  },
+  {
+    "id": "c2"5,
+    "name": "Shadow",
+    "likes": [
+      "soft blankets",
+      "laser chase"
+    ],
+    "dislikes": [
+      "Bob",
+      "vacuum cleaners"
+    ]
+  },
+  {
+    "id": "c2"6,
+    "name": "Pumpkin",
+    "likes": [
+      "cardboard boxes",
+      "head pats",
+      "soft blankets"
+    ],
+    "dislikes": [
+      "empty food bowls",
+      "cold floors"
+    ]
+  },
+  {
+    "id": "c2"7,
+    "name": "Tuna",
+    "likes": [
+      "sunbeams",
+      "warm laundry",
+      "window watching",
+      "bird videos"
+    ],
+    "dislikes": [
+      "being ignored"
+    ]
+  },
+  {
+    "id": "c2"8,
+    "name": "Socks",
+    "likes": [
+      "cardboard boxes",
+      "snuggling"
+    ],
+    "dislikes": [
+      "cold floors",
+      "being ignored"
+    ]
+  },
+  {
+    "id": "c2"9,
+    "name": "Pancake",
+    "likes": [
+      "head pats",
+      "hiding in boxes",
+      "belly rubs"
+    ],
+    "dislikes": [
+      "vet visits",
+      "being ignored",
+      "closed doors"
+    ]
+  },
+  {
+    "id": "c3"0,
+    "name": "Miso",
+    "likes": [
+      "naps",
+      "window watching",
+      "catnip",
+      "midnight snacks"
+    ],
+    "dislikes": [
+      "sharing food",
+      "vet visits"
+    ]
+  },
+  {
+    "id": "c3"1,
+    "name": "Sprinkles",
+    "likes": [
+      "catnip",
+      "window watching",
+      "sunbeams",
+      "naps"
+    ],
+    "dislikes": [
+      "being ignored",
+      "being picked up",
+      "early mornings"
+    ]
+  },
+  {
+    "id": "c3"2,
+    "name": "Tofu",
+    "likes": [
+      "sunbeams",
+      "hiding in boxes",
+      "head pats"
+    ],
+    "dislikes": [
+      "baths"
+    ]
+  },
+  {
+    "id": "c3"3,
+    "name": "Oreo",
+    "likes": [
+      "string toys",
+      "stealing socks",
+      "attention"
+    ],
+    "dislikes": [
+      "vet visits",
+      "cold floors"
+    ]
+  },
+  {
+    "id": "c3"4,
+    "name": "Snickers",
+    "likes": [
+      "sunbeams",
+      "stealing socks",
+      "laser chase",
+      "cardboard boxes"
+    ],
+    "dislikes": [
+      "being ignored",
+      "early mornings",
+      "every other cat"
+    ]
+  },
+  {
+    "id": "c3"5,
+    "name": "Cleo",
+    "likes": [
+      "catnip",
+      "stealing socks",
+      "soft blankets",
+      "window watching"
+    ],
+    "dislikes": [
+      "being ignored",
+      "rain",
+      "cold floors"
+    ]
+  },
+  {
+    "id": "c3"6,
+    "name": "Loki",
+    "likes": [
+      "hiding in boxes",
+      "sunbeams",
+      "window watching",
+      "catnip"
+    ],
+    "dislikes": [
+      "being picked up"
+    ]
+  },
+  {
+    "id": "c3"7,
+    "name": "Nala",
+    "likes": [
+      "snuggling",
+      "string toys",
+      "head pats",
+      "belly rubs"
+    ],
+    "dislikes": [
+      "rain",
+      "being ignored"
+    ]
+  },
+  {
+    "id": "c3"8,
+    "name": "Smudge",
+    "likes": [
+      "warm laundry",
+      "stealing socks",
+      "soft blankets",
+      "cardboard boxes"
+    ],
+    "dislikes": [
+      "loud noises",
+      "baths",
+      "empty food bowls"
+    ]
+  },
+  {
+    "id": "c3"9,
+    "name": "Pip",
+    "likes": [
+      "stealing socks",
+      "cardboard boxes"
+    ],
+    "dislikes": [
+      "vet visits",
+      "early mornings",
+      "cold floors"
+    ]
+  },
+  {
+    "id": "c4"0,
+    "name": "Churro",
+    "likes": [
+      "laser chase",
+      "treats"
+    ],
+    "dislikes": [
+      "baths",
+      "closed doors",
+      "empty food bowls"
+    ]
+  },
+  {
+    "id": "c4"1,
+    "name": "Muffin",
+    "likes": [
+      "belly rubs",
+      "warm laundry"
+    ],
+    "dislikes": [
+      "empty food bowls",
+      "being ignored",
+      "early mornings"
+    ]
+  },
+  {
+    "id": "c4"2,
+    "name": "Sassy",
+    "likes": [
+      "snuggling",
+      "attention"
+    ],
+    "dislikes": [
+      "vacuum cleaners",
+      "being ignored"
+    ]
+  },
+  {
+    "id": "c4"3,
+    "name": "Fig",
+    "likes": [
+      "attention",
+      "midnight snacks"
+    ],
+    "dislikes": [
+      "baths",
+      "loud noises"
+    ]
+  },
+  {
+    "id": "c4"4,
+    "name": "Pumpkin Spice",
+    "likes": [
+      "stealing socks",
+      "naps",
+      "snuggling",
+      "treats"
+    ],
+    "dislikes": [
+      "baths",
+      "rain",
+      "vet visits"
+    ]
+  },
+  {
+    "id": "c4"5,
+    "name": "Crumb",
+    "likes": [
+      "treats",
+      "laser chase"
+    ],
+    "dislikes": [
+      "early mornings"
+    ]
+  },
+  {
+    "id": "c4"6,
+    "name": "Goose",
+    "likes": [
+      "window watching",
+      "purring",
+      "belly rubs"
+    ],
+    "dislikes": [
+      "vacuum cleaners"
+    ]
+  },
+  {
+    "id": "c4"7,
+    "name": "Maple",
+    "likes": [
+      "kneading",
+      "cardboard boxes"
+    ],
+    "dislikes": [
+      "early mornings",
+      "empty food bowls",
+      "vet visits"
+    ]
+  },
+  {
+    "id": "c4"8,
+    "name": "Tiggy",
+    "likes": [
+      "snuggling",
+      "warm laundry",
+      "belly rubs"
+    ],
+    "dislikes": [
+      "vacuum cleaners"
+    ]
+  },
+  {
+    "id": "c4"9,
+    "name": "Bluebell",
+    "likes": [
+      "catnip",
+      "bird videos"
+    ],
+    "dislikes": [
+      "cold floors",
+      "being picked up",
+      "vacuum cleaners"
+    ]
+  },
+  {
+    "id": "c5"0,
+    "name": "Poppy",
+    "likes": [
+      "head pats",
+      "zoomies",
+      "midnight snacks"
+    ],
+    "dislikes": [
+      "vet visits",
+      "loud noises",
+      "baths"
+    ]
+  }
+]

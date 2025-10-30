@@ -1,6 +1,29 @@
 
 # Web components
 
+## What? 
+
+A test page to practice web components, both serious and ones to amuse me. I need to be amused. 
+
+## Why?
+
+First of all, lern gud stuph. In a world of React, Vue, Golly Darn DAngular, doing a little web component play is fun. Also, doing a showcase page gives me little mini projects between longer ones. A soupçon of code. Sorbet between meals. A bit of derring do to do something new. 
+
+## How?
+
+- Vite with vanilla JS template. 
+- CSS/SCSS 
+- Dummy data until I find an API to amuse me. Did I mention that I need to be amused?
+
+
+## When? 
+
+- When the mood hits
+- While watching telly or listening to podcasts
+- Ongoing and shouldn't ever be done.
+
+---
+
 ## Main building blocks
 
 There are three main building blocks: 
@@ -61,19 +84,19 @@ then add this:
 
 ### Generics
 - [ ] Cards (user, vertical, offset, custom to my own amusement...)
-- - [ ] Horizontal
+- - [x] Horizontal
 - - [ ] Vertical
 - - [ ] Offset
+- [ ] Cards grouped
 
 ### Basic Interactive Elements:
 
-- [ ] Custom buttons with loading states, icon support, or themes
+- [ ] Buttons (custom) with loading states, icon support, or themes
 - [ ] Toggle switches
 - [ ] Tooltips
 - [ ] Badges/pills
 - [ ] Progress bars or spinners
 - [ ] Avatars with fallback initials
-- [ ] Buttons (incl variants: primary, secondary, danger)
 
 ### Input Components:
 

@@ -1,0 +1,59 @@
+
+[
+  {
+    "id": "d1",
+    "name": "Scraps",
+    "breed": "Saluki",
+    "sex": "male",
+    "likes": ["running", "chasing squirrels", "belly rubs", "bacon treats"],
+    "dislikes": ["thunderstorms", "vacuum cleaners", "baths"]
+  },
+  {
+    "id": "d2",
+    "name": "Bella",
+    "breed": "Golden Retriever",
+    "sex": "female",
+    "likes": ["swimming", "tennis balls", "car rides", "meeting new people", "dinner time"],
+    "dislikes": ["being alone", "fireworks"]
+  },
+  {
+    "id": "d3",
+    "name": "Duke",
+    "breed": "German Shepherd",
+    "sex": "male",
+    "likes": ["fetch", "protecting the house", "training sessions", "peanut butter"],
+    "dislikes": ["skateboards", "the mailman", "cats", "being ignored"]
+  },
+  {
+    "id": "d4",
+    "name": "Luna",
+    "breed": "French Bulldog",
+    "sex": "female",
+    "likes": ["napping", "snuggling on the couch", "cheese", "short walks"],
+    "dislikes": ["hot weather", "stairs", "loud noises"]
+  },
+  {
+    "id": "d5",
+    "name": "Max",
+    "breed": "Border Collie",
+    "sex": "male",
+    "likes": ["herding anything", "frisbee", "agility courses", "puzzles", "working"],
+    "dislikes": ["sitting still", "being bored"]
+  },
+  {
+    "id": "d6",
+    "name": "Daisy",
+    "breed": "Beagle",
+    "sex": "female",
+    "likes": ["sniffing everything", "food", "more food", "howling"],
+    "dislikes": ["empty food bowls", "missing out on walks", "closed doors"]
+  },
+  {
+    "id": "d7",
+    "name": "Rocky",
+    "breed": "Pitbull",
+    "sex": "male",
+    "likes": ["cuddling", "tug-of-war", "making friends", "his rope toy", "kisses"],
+    "dislikes": ["being left out", "rain", "the vet"]
+  }
+]

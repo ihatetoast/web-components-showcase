@@ -1,0 +1,79 @@
+[
+  {
+    "id": "u1",
+    "firstName": "Steve",
+    "lastName": "Buscemi",
+    "imageUrl": "https://randomuser.me/api/portraits/men/13.jpg",
+    "info": {
+      "mobile": "555-555-5555",
+      "email": "sbuscemi@dummydata.com",
+      "dob": "1957-12-13"
+    }
+  },
+  {
+    "id": "u2",
+    "firstName": "Maya",
+    "lastName": "Patel",
+    "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+    "info": {
+      "mobile": "555-123-4567",
+      "email": "mpatel@dummydata.com",
+      "dob": "1992-03-22"
+    }
+  },
+  {
+    "id": "u3",
+    "firstName": "James",
+    "lastName": "Chen",
+    "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+    "info": {
+      "mobile": "555-987-6543",
+      "email": "jchen@dummydata.com",
+      "dob": "1985-07-14"
+    }
+  },
+  {
+    "id": "u4",
+    "firstName": "Sofia",
+    "lastName": "Rodriguez",
+    "imageUrl": "https://randomuser.me/api/portraits/women/12.jpg",
+    "info": {
+      "mobile": "555-246-8013",
+      "email": "srodriguez@dummydata.com",
+      "dob": "1998-11-30"
+    }
+  },
+  {
+    "id": "u5",
+    "firstName": "Marcus",
+    "lastName": "Washington",
+    "imageUrl": "https://randomuser.me/api/portraits/men/9.jpg",
+    "info": {
+      "mobile": "555-369-2580",
+      "email": "mwashington@dummydata.com",
+      "dob": "1990-05-08"
+    }
+  },
+  {
+    "id": "u6",
+    "firstName": "Emma",
+    "lastName": "Larsson",
+    "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+    "info": {
+      "mobile": "555-741-9632",
+      "email": "elarsson@dummydata.com",
+      "dob": "1987-09-19"
+    }
+  },
+  {
+    "id": "u7",
+    "firstName": "David",
+    "lastName": "Okonkwo",
+    "imageUrl": "https://randomuser.me/api/portraits/men/15.jpg",
+    "info": {
+      "mobile": "555-852-7410",
+      "email": "dokonkwo@dummydata.com",
+      "dob": "1995-01-25"
+    }
+  }
+]

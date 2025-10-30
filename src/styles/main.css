@@ -1,0 +1,82 @@
+
+/* colour ideas from 
+* https://dribbble.com/shots/26707487-Branding-Stickers 
+*
+*/
+
+
+html {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  color: #3b1a3e;
+  background-color: #cecafd;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Merriweather", Georgia, 'Times New Roman',  serif;
+
+}
+
+h4, h5, h6, p, a {
+  font-family: "Montserrat",Arial, Helvetica, sans-serif;
+}
+
+p{
+  margin: 0;
+}
+h3 {
+  margin:0;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #242424;
+  color: #e7e7e9;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding: 1em 2em;
+
+}
+
+section {
+  background-color: #faf6f5;
+  padding: 1rem;
+}
+
+section:nth-child(even) {
+  background-color: #fcf4f7;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+
+/* SHADOW  */
+/* horizontal-card */
+horizontal-card p {
+  margin: 0 0 8px 0;
+}
