@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "firstName": "Ava",
+    "lastName": "Mitchell",
+    "class": 2026,
+    "currentSubjects": ["Calculus II", "English 4", "Physics", "European History", "Art", "Biology"],
+    "mobile": "555-214-8934",
+    "email": "ava.mitchell@riverviewhigh.edu",
+    "streetAddress": "102 Maple St, Riverview City"
+  },
+  {
+    "id": 2,
+    "firstName": "Liam",
+    "lastName": "Rodriguez",
+    "class": 2027,
+    "currentSubjects": ["Chemistry", "Calculus I", "English 3", "Computer Science", "Spanish", "Current Events and Politics", "Economics"],
+    "mobile": "555-908-3321",
+    "email": "liam.rodriguez@riverviewhigh.edu",
+    "streetAddress": "215 Oak Ave, Riverview City"
+  },
+  {
+    "id": 3,
+    "firstName": "Sophia",
+    "lastName": "Nguyen",
+    "class": 2028,
+    "currentSubjects": ["English 2", "Geometry", "Biology", "Chemistry", "Art", "World History"],
+    "mobile": "555-771-4402",
+    "email": "sophia.nguyen@riverviewhigh.edu",
+    "streetAddress": "88 Elm Dr, Riverview City"
+  },
+  {
+    "id": 4,
+    "firstName": "Noah",
+    "lastName": "Johnson",
+    "class": 2029,
+    "currentSubjects": ["Physics", "Chemistry", "Algebra I", "English 1", "Geography", "Computer Science"],
+    "mobile": "555-333-7721",
+    "email": "noah.johnson@riverviewhigh.edu",
+    "streetAddress": "44 Pine Ct, Riverview City"
+  },
+  {
+    "id": 5,
+    "firstName": "Isabella",
+    "lastName": "Patel",
+    "class": 2026,
+    "currentSubjects": ["Calculus II", "English 4", "Drama", "Biology", "3D Art", "French 3"],
+    "mobile": "555-449-8710",
+    "email": "isabella.patel@riverviewhigh.edu",
+    "streetAddress": "17 Brookside Ln, Riverview City"
+  },
+  {
+    "id": 6,
+    "firstName": "Ethan",
+    "lastName": "Kim",
+    "class": 2028,
+    "currentSubjects": ["English 2", "Geometry", "Chemistry", "Economics", "World History", "Mandarin"],
+    "mobile": "555-884-9930",
+    "email": "ethan.kim@riverviewhigh.edu",
+    "streetAddress": "205 Birch Rd, Riverview City"
+  },
+  {
+    "id": 7,
+    "firstName": "Mia",
+    "lastName": "Harris",
+    "class": 2027,
+    "currentSubjects": ["English 3", "Trigonometry", "Biology", "French 3", "Current Events and Politics", "Physics"],
+    "mobile": "555-665-1001",
+    "email": "mia.harris@riverviewhigh.edu",
+    "streetAddress": "66 Willow Way, Riverview City"
+  },
+  {
+    "id": 8,
+    "firstName": "James",
+    "lastName": "Brown",
+    "class": 2029,
+    "currentSubjects": ["Algebra I", "Chemistry", "History", "Computer Science", "Economics", "English 1"],
+    "mobile": "555-429-6678",
+    "email": "james.brown@riverviewhigh.edu",
+    "streetAddress": "301 Cedar Blvd, Riverview City"
+  },
+  {
+    "id": 9,
+    "firstName": "Charlotte",
+    "lastName": "Adams",
+    "class": 2028,
+    "currentSubjects": ["Algebra II", "Biology", "German", "French", "History", "Music / Orchestra"],
+    "mobile": "555-202-9874",
+    "email": "charlotte.adams@riverviewhigh.edu",
+    "streetAddress": "109 Riverbend St, Riverview City"
+  },
+  {
+    "id": 10,
+    "firstName": "Alexander",
+    "lastName": "Lopez",
+    "class": 2027,
+    "currentSubjects": ["Physics", "Calculus II", "English 3", "Chemistry", "Geography", "Economics"],
+    "mobile": "555-776-3022",
+    "email": "alexander.lopez@riverviewhigh.edu",
+    "streetAddress": "122 Lakeview Dr, Riverview City"
+  },
+  {
+    "id": 11,
+    "firstName": "Amelia",
+    "lastName": "White",
+    "class": 2029,
+    "currentSubjects": ["English 1", "Algebra I", "Art", "Music", "Drama", "History"],
+    "mobile": "555-992-8044",
+    "email": "amelia.white@riverviewhigh.edu",
+    "streetAddress": "47 Ridgewood Ave, Riverview City"
+  },
+  {
+    "id": 12,
+    "firstName": "Benjamin",
+    "lastName": "Singh",
+    "class": 2028,
+    "currentSubjects": ["Computer Science", "Calculus I", "Physics", "Chemistry", "English 2", "Economics"],
+    "mobile": "555-300-9009",
+    "email": "benjamin.singh@riverviewhigh.edu",
+    "streetAddress": "59 Summit Rd, Riverview City"
+  },
+  {
+    "id": 13,
+    "firstName": "Harper",
+    "lastName": "Clark",
+    "class": 2027,
+    "currentSubjects": ["Biology", "Trigonometry", "English Poetry", "History", "Studio Art", "Drama"],
+    "mobile": "555-112-6543",
+    "email": "harper.clark@riverviewhigh.edu",
+    "streetAddress": "7 Meadow Ln, Riverview City"
+  },
+  {
+    "id": 14,
+    "firstName": "Lucas",
+    "lastName": "Martinez",
+    "class": 2026,
+    "currentSubjects": ["Physics", "Calculus II", "Computer Science", "English 4", "European History", "Chemistry"],
+    "mobile": "555-998-2234",
+    "email": "lucas.martinez@riverviewhigh.edu",
+    "streetAddress": "210 Greenfield St, Riverview Heights"
+  },
+  {
+    "id": 15,
+    "firstName": "Evelyn",
+    "lastName": "Baker",
+    "class": 2029,
+    "currentSubjects": ["English 1", "Algebra I", "History", "Art", "Music", "Drama"],
+    "mobile": "555-765-4320",
+    "email": "evelyn.baker@riverviewhigh.edu",
+    "streetAddress": "98 Maplewood Ct, Riverview Heights"
+  },
+  {
+    "id": 16,
+    "firstName": "Henry",
+    "lastName": "Wilson",
+    "class": 2028,
+    "currentSubjects": ["Trigonometry", "Chemistry", "Physics", "Economics", "Computer Science", "English 2"],
+    "mobile": "555-555-8899",
+    "email": "henry.wilson@riverviewhigh.edu",
+    "streetAddress": "184 Lake Ridge Rd, Riverview City"
+  },
+  {
+    "id": 17,
+    "firstName": "Abigail",
+    "lastName": "Turner",
+    "class": 2027,
+    "currentSubjects": ["Modern American Poetry", "Trigonometry", "French 4", "Biology", "US Civil War History", "Studio Art"],
+    "mobile": "555-320-1198",
+    "email": "abigail.turner@riverviewhigh.edu",
+    "streetAddress": "70 Oakleaf Dr, Riverview City"
+  },
+  {
+    "id": 18,
+    "firstName": "Daniel",
+    "lastName": "Carter",
+    "class": 2026,
+    "currentSubjects": ["Calculus I", "Technical Writing", "Physics", "Chemistry", "Computer Science", "Economics"],
+    "mobile": "555-678-2245",
+    "email": "daniel.carter@riverviewhigh.edu",
+    "streetAddress": "15 Brookwood Ln, Riverview City"
+  },
+  {
+    "id": 19,
+    "firstName": "Grace",
+    "lastName": "Scott",
+    "class": 2029,
+    "currentSubjects": ["English 1", "Algebra I", "Art", "History", "Music", "Drama"],
+    "mobile": "555-454-9001",
+    "email": "grace.scott@riverviewhigh.edu",
+    "streetAddress": "95 Elmwood Ave, Riverview City"
+  },
+  {
+    "id": 20,
+    "firstName": "William",
+    "lastName": "Evans",
+    "class": 2028,
+    "currentSubjects": ["Physics", "Chemistry", "Trigonometry", "English 2", "Economics", "Computer Science"],
+    "mobile": "555-900-8882",
+    "email": "william.evans@riverviewhigh.edu",
+    "streetAddress": "33 Parkside Blvd, Riverview Heights"
+  }
+]

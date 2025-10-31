@@ -84,10 +84,12 @@ then add this:
 
 ### Generics
 - [ ] Cards (user, vertical, offset, custom to my own amusement...)
-- - [x] Horizontal
-- - [ ] Vertical
+- - [x] Horizontal static
+- - [ ] Vertical static --  KATY, YOU ARE HERE!
 - - [ ] Offset
-- [ ] Cards grouped
+- - [ ] Horizontal dynamic
+- - [ ] Vertical dynamic
+- [ ] Card containers for dynamic cards
 
 ### Basic Interactive Elements:
 

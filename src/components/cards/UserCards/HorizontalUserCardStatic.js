@@ -10,9 +10,10 @@ template.innerHTML = `
     box-shadow: rgba(209, 205, 254, 0.5) 0px 4px 12px;
     padding: 16px 24px;
     font-family: "Merriweather", Georgia, 'Times New Roman',  serif;
+    ›
   }
 
-   .horizontal-card h3 {
+  .horizontal-card h3 {
     margin-top: 0;
     margin-bottom: 16px;
   }
@@ -62,16 +63,12 @@ template.innerHTML = `
 </div>
 `;
 
-class HorizontalCard extends HTMLElement {
-    static get observedAttributes() {
-    return ['avatar-rounded'];
-  }
+class HorizontalUserCardStatic extends HTMLElement {
+  // static get observedAttributes() {
+  //   return ['avatar-rounded'];
+  // }
   constructor() {
     super();
-
-    // set properties
-    this.showInfo = true;
-
     // create shadow DOM
     this.attachShadow({ mode: 'open' });
     // append child to shadow root. append the template.
@@ -83,12 +80,12 @@ class HorizontalCard extends HTMLElement {
     //  console.log(rounded);
   }
 
-   connectedCallback() {
+  connectedCallback() {
     // get attr value on load
     this.updateAvatarRadius();
   }
 
-  attributeChangedCallback(name, oldValue, newValue){
+  attributeChangedCallback(name, oldValue, newValue) {
     if (name === 'avatar-rounded') {
       this.updateAvatarRadius();
     }
@@ -105,4 +102,4 @@ class HorizontalCard extends HTMLElement {
   }
 }
 
-customElements.define('horizontal-card', HorizontalCard);
+customElements.define('static-user-card-horizontal', HorizontalUserCardStatic);

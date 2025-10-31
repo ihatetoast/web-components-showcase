@@ -67,11 +67,13 @@ section:nth-child(even) {
   background-color: #fcf4f7;
 }
 
-.row {
+.demo-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 1rem;
+  padding: 1.5rem 1rem;
+  border-bottom: 2px solid  rgba(209, 205, 254, 0.7);
 }
 
 

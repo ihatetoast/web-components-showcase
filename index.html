@@ -6,7 +6,10 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="./src/main.js" defer></script>
     <title>Web Components Demo</title>
@@ -21,10 +24,13 @@
     </header>
     <main>
       <section>
-        <h2>Cards: listed or filled individually</h2>
-        <p>Horizontal Cards: round avatar</p>
-        <div class="row card-row">
-          <horizontal-card
+        <h2>Static User Card: Horizontal User Card</h2>
+        <p>
+          This custom card displays the user's name, headshot, and basic contact
+          info.
+        </p>
+        <div class="demo-container">
+          <static-user-card-horizontal
             circle-avatar
             name="Rick Marshall"
             avatar="https://static.wikia.nocookie.net/krofft/images/0/0d/Download_%284%29-2.jpg"
@@ -32,10 +38,11 @@
             <p slot="email">marshall@routineexpedition.com</p>
             <p slot="mobile">512-555-5555</p>
             <p slot="description">
-              circle-avatar attribute on horizontal-card creates a circle image.
+              circle-avatar attribute on static-user-card-horizontal creates a
+              circle image.
             </p>
-          </horizontal-card>
-          <horizontal-card
+          </static-user-card-horizontal>
+          <static-user-card-horizontal
             square-avatar
             name="Will Marshall"
             avatar="https://static.wikia.nocookie.net/krofft/images/a/a5/Download-3.jpg"
@@ -43,10 +50,11 @@
             <p slot="email">will@routineexpedition.com</p>
             <p slot="mobile">214-555-5555</p>
             <p slot="description">
-              square-avatar attribute on horizontal-card creates a square image.
+              square-avatar attribute on static-user-card-horizontal creates a
+              square image.
             </p>
-          </horizontal-card>
-          <horizontal-card
+          </static-user-card-horizontal>
+          <static-user-card-horizontal
             name="Holly Marshall"
             avatar="https://static.wikia.nocookie.net/krofft/images/5/51/Download_%281%29-3.jpg"
           >
@@ -55,8 +63,8 @@
             <p slot="description">
               No avatar attribute. Image is defaulted to 100% of 1/3 the card.
             </p>
-          </horizontal-card>
-          <horizontal-card
+          </static-user-card-horizontal>
+          <static-user-card-horizontal
             avatar-rounded="2"
             name="Enik"
             avatar="https://static.wikia.nocookie.net/krofft/images/5/50/Download_%283%29-3.jpg"
@@ -67,9 +75,9 @@
               Avatar corners rounded by avatar-rounded value (between 2 and 10).
               This one set at 2.
             </p>
-          </horizontal-card>
+          </static-user-card-horizontal>
 
-          <horizontal-card
+          <static-user-card-horizontal
             avatar-rounded="10"
             name="The Zarn"
             avatar="https://static.wikia.nocookie.net/krofft/images/e/e1/Thezarn.jpg"
@@ -80,8 +88,8 @@
               Avatar corners rounded by avatar-rounded value (between 2 and 10).
               This one set at 10.
             </p>
-          </horizontal-card>
-          <horizontal-card
+          </static-user-card-horizontal>
+          <static-user-card-horizontal
             avatar-rounded="10"
             name="Sleestaks"
             avatar="https://static.wikia.nocookie.net/krofft/images/1/12/Download_%281%29-1569404344.jpg"
@@ -93,14 +101,22 @@
               This one set at 20 and should not work. Keep the sleesktaks in
               line!
             </p>
-          </horizontal-card>
+          </static-user-card-horizontal>
         </div>
       </section>
       <section>
-        <h2>Cards in a "cards" component, displayed via map.</h2>
-        <p>User Cards</p>
-        <div>div</div>
+        <h2>Static User Cards</h2>
+        <p>Horizontal User Card: Vertical User Cards</p>
+        <p>
+          These cards assume the user is an employee and displays name,
+          position, tenure at the company, a paragraph of mini bio or about, and
+          basic contact info.
+        </p>
+        <div class="demo-container">
+          <static-user-card-vertical name="Mike Brady" avatar="https://static.wikia.nocookie.net/thebradybunch/images/c/ce/Mike-Brady-the-brady-bunch-8032015-543-388.jpg"></static-user-card-vertical>
+        </div>
       </section>
+
     </main>
   </body>
 </html>
