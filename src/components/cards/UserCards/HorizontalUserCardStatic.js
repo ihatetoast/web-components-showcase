@@ -48,10 +48,18 @@ template.innerHTML = `
   .info ::slotted([slot="mobile"])::before {
     content: "📱 ";
   }
+
+   .img-container {
+  width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+    .img-container img {
+    object-fit: cover;}
 </style>
 
 <div class="horizontal-card">
-  <img />
+  <div class="img-container"><img /></div>
   <div>
     <h3></h3>
     <div class="info">

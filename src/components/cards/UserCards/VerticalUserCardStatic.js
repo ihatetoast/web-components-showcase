@@ -11,14 +11,27 @@ template.innerHTML = `
     grid-gap: 10px;
     box-shadow: rgba(209, 205, 254, 0.5) 0px 4px 12px;
     font-family: "Merriweather", Georgia, 'Times New Roman',  serif;
-    ›
   }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-container {
+  width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+    .img-container img {
+    object-fit: cover;}
 
 </style>
 
 <div class="horizontal-card">
   <div class="info">
-    <img />
+    <div class="img-container"><img /></div>
     <h3></h3>
     <slot name="position" ></slot>
     <slot name="tenure"></slot>
