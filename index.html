@@ -6,10 +6,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="./src/main.js" defer></script>
     <title>Web Components Demo</title>
@@ -112,33 +109,216 @@
           position, tenure at the company, a paragraph of mini bio or about, and
           basic contact info.
         </p>
-        <div class="demo-container">
+        <ul>
+          <li><p>If there's no user name &#8594; "Employee on smoko"</p></li>
+          <li><p>If there's no avatar &#8594; sleeping martian</p></li>
+          <li>
+            <p>
+              If there's missing contact info &#8594; method of contact is not
+              displayed
+            </p>
+          </li>
+        </ul>
+
+        <div class="demo-container vertical-card-container">
           <static-user-card-vertical
             name="Mike Brady"
             avatar="https://static.wikia.nocookie.net/thebradybunch/images/c/ce/Mike-Brady-the-brady-bunch-8032015-543-388.jpg"
             position="Senior Principal Architect"
-            email="bigdaddymike@bradybunch.com"
+            email="mike.brady@bradyandpartners.com"
+            mobile="(213) 555-6453"
+            location="123 Corporate Blvd, Los Angeles, CA "
+            tenure="35"
           >
             <div slot="about">
               <p>
-                Experienced architect specializing in
-                <strong>residential design</strong>.
+                Licensed architect focused on mid-century modern residential
+                renovations and sustainable home additions. Leads
+                <strong>Brady &amp; Partners</strong>&#8212;small firm known for
+                blended indoor/outdoor living designs.
               </p>
-              <p>Father of six. <a href="#">Portfolio</a></p>
+              <p>
+                Father to three sons and three step-daughters from his second
+                wife, Carol. Mike and his family enjoy yearly vacations to the
+                Grand Canyon.
+              </p>
             </div>
           </static-user-card-vertical>
 
           <static-user-card-vertical
             name="Carol Brady"
             avatar="https://static.wikia.nocookie.net/thebradybunch/images/2/2e/Carol-Brady-the-brady-bunch-8032041-550-391.jpg"
-            position="Senior Household Manager"
-            email="cazza@bradybunch.com"
+            position="Culinary & Home Economics Consultant"
+            email="carol@bradyhome.com"
+            mobile="(213) 555-6669"
+            location="11222 Dilling Street, North Hollywood, CA 91602"
+            tenure="30"
           >
             <div slot="about">
               <p>
-                Witty, savvy, always put together, Carol is the mom of moms.
-                Whether doling advice or consoling Jan, Carol demonstrates
-                superior mommery.
+                Home-economics educator turned lifestyle consultant: recipe
+                developer, wardrobe/styling coach, and host of a local “family
+                living” workshop series.
+              </p>
+              <p>
+                At home, Carol is witty, savvy, always put together, Carol is
+                the mom of moms. Whether doling advice or consoling Jan, Carol
+                demonstrates superior mommery.
+              </p>
+            </div>
+          </static-user-card-vertical>
+
+          <static-user-card-vertical
+            name="Greg Brady"
+            position="Music Producer & Composer"
+            email="greg@gregbradymusic.com"
+            mobile="(213) 555-0883"
+            location="Sunset Row Studios, Los Angeles, CA"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/f/f0/OutdoorGreg.jpg"
+          >
+            <div slot="about">
+              <p>
+                Greg is an independent music producer and composer who works on
+                indie film scores, jingles, and podcast theme music. Together
+                with his wife Nancy, he operates a cozy neighborhood studio
+                where they guide and inspire young artists, blending lessons in
+                music, painting, and sculpture under one roof.
+              </p>
+              <p>
+                Greg and Nancy are BBQ afficionados. You may have seen them in
+                area BBQ and chili cookoffs. Nancy always brings home a blue
+                ribbon for her prize dessert such as last year's winner: Caramel
+                Whiskey Pecan Bacon Smoked Cheesecake.
+              </p>
+            </div>
+          </static-user-card-vertical>
+          <static-user-card-vertical
+            name="Marcia Brady-Buntz"
+            position="Public Relations & Brand Manager"
+            email="marcia@marciamarcia.com"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/f/f6/Marcia-Brady-the-brady-bunch-5795502-393-500.jpg"
+            location="Willow Lane Office Park, San Francisco, CA"
+            tenure="7"
+          >
+            <div slot="about">
+              <p>
+                Marica is a PR strategist specializing in lifestyle, wellness
+                brands, and athlete-spectator relations. She is skilled in media
+                relations, influencer partnerships, and product launches.
+              </p>
+              <p>
+                Marcia has three guinea pigs and several salt water aquariums
+                dedicated to cuttle fish, octopi, and ornamental shrimp.
+              </p>
+            </div>
+          </static-user-card-vertical>
+          <static-user-card-vertical
+            name="Jan Brady"
+            position="UX Designer & Portrait Photographer"
+            email="jbrady@janbydesign.com"
+            mobile="(503) 555-5281"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/8/8c/Tumblr_mj6zpxSSA01s5jvxmo1_500.jpg"
+            location="240 Harbor St, Portland, OR 97209"
+          >
+            <div slot="about">
+              <p>
+                Jan's company ombines UX product design with freelance portrait
+                photography. She lends her skills as a UX researcher for a
+                health-tech and ed-tech startups.
+              </p>
+              <p>
+                On weekends, she shoots pet portrait sessions with local pet
+                rescue and adoption agencies.
+              </p>
+            </div>
+          </static-user-card-vertical>
+          <static-user-card-vertical
+            name="Peter Brady"
+            position="Environmental Engineer"
+            email="bradyp@porkchops.com"
+            mobile="(303) 555-3973"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/b/b2/Chris-Knight-as-Peter-Brady-the-brady-bunch-22475040-500-375.jpg"
+            location="5 Meadowbrook Dr, Boulder, CO 80302"
+            tenure="12"
+          >
+            <div slot="about">
+              <p>
+                Peter is the Senior Environmental Engineer at Pork Chops and
+                Applesauce, an architectural and engineering firm with
+                extensive, nationwide experience focused specifically on the
+                restaurant industry. Peter is passionate about the intricacies
+                of systems from grease interceptors to lighting.
+              </p>
+              <p>
+                Peter and his wife, Mary, enjoy taking their dogs Robbie and
+                Desmond on trips across the US where they visit small towns
+                searching for the perfect burger.
+              </p>
+            </div>
+          </static-user-card-vertical>
+          <static-user-card-vertical
+            name="Bob Brady"
+            position="Sports Rehabilitation Therapist"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/8/88/Bb.PNG"
+            email="bob.brady@rehabbob.com"
+            mobile="(805) 555-5971"
+            tenure="10"
+          >
+            <div slot="about">
+              <p>
+                Bob is a licensed physical therapist focusing on youth athletics
+                and rehab. He runs community clinics and offers recovery
+                programs for amateur athletes and dancers.
+              </p>
+              <p>
+                Bob enjoys hiking in the Santa Monica Mountains with his
+                daughters Lara and Ruby and their 6 goldi-malinoodles. When
+                they're not hiking, Bob and his daughters compete in scent work,
+                barn hunt, and dog dancing.
+              </p>
+            </div>
+          </static-user-card-vertical>
+          <static-user-card-vertical
+            name="Cindy Brady Sorensen"
+            position="Floral Shop Owner & Social Media Coordinator"
+            email="cindy.brady@chattyflowers.com"
+            tenure="5"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/f/f5/Cindy.jpg"
+            location="Chatty Flowers Studio at Olive Street Market, Santa Cruz, CA"
+          >
+            <div slot="about">
+              <p>
+                Cindy is the owner of a small floral studio that also sells
+                seasonal workshops online. Her studio also handles all social
+                media, ecommerce listings, and local events for smaller florists
+                and farmers markets.
+              </p>
+              <p>
+                Cindy and her wife Lu are familiar faces at The Fae and Fury
+                Faire, a pet-friendly ren faire. Lu juggles and leads workshops
+                on costume design, while Cindy sings with a bard-core quartet.
+              </p>
+            </div>
+          </static-user-card-vertical>
+          <static-user-card-vertical
+            name="Oliver Tyler"
+            email="oliver@useless.com"
+            position="Shark Jumper"
+            tenure="1"
+          >
+            <div slot="about">
+              <p>
+                Oliver is a cousin whose appearance anywhere marks the decline
+                of the event.
+              </p>
+            </div>
+          </static-user-card-vertical>
+          <static-user-card-vertical tenure="3years">
+            <div slot="about">
+              <p>
+                I'm just a card that someone forgot to finish filling in, so I
+                am all about the default when someone leaves for the dayw
+                without checking. I am sad. My tenure is not NaN, so should be hidden.
               </p>
             </div>
           </static-user-card-vertical>

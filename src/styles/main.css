@@ -76,9 +76,13 @@ section:nth-child(even) {
   border-bottom: 2px solid  rgba(209, 205, 254, 0.7);
 }
 
+.vertical-card-container {
+  background-color: #d1cdff;
+}
 
 /* SHADOW  */
 /* horizontal-card */
 horizontal-card p {
   margin: 0 0 8px 0;
 }
+
