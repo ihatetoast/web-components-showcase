@@ -82,7 +82,7 @@ class HorizontalUserCardStatic extends HTMLElement {
     // append child to shadow root. append the template.
     this.shadowRoot.appendChild(template.content.cloneNode(true));
     // handle attributes
-    this.shadowRoot.querySelector('h3').innerText = this.getAttribute('name');
+    this.shadowRoot.querySelector('h3').textContent = this.getAttribute('name');
     this.shadowRoot.querySelector('img').src = this.getAttribute('avatar');
     //  const rounded = this.getAttribute('avatar-rounded');
     //  console.log(rounded);

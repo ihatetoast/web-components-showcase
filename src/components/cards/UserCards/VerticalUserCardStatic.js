@@ -31,19 +31,34 @@ template.innerHTML = `
 
 <div class="horizontal-card">
   <div class="info">
-    <div class="img-container"><img /></div>
+    <div class="img-container">
+      <img alt="Profile picture"/>
+    </div>
     <h3></h3>
-    <slot name="position" ></slot>
-    <slot name="tenure"></slot>
+    <div class="position" ></div>
+    <div class="tenure"></div>
   </div>
-  <div class="about>
+
+  <div class="about">
     <p>About</p>
-    <slot name="about" ></slot>
+    <slot name="about" >
+      <p class="no-info">No bio provided</p>
+    </slot>
   </div>
+
   <div class="contact">
-      <slot name="email" ></slot>
-      <slot name="mobile"></slot>
-      <slot name="location"></slot>
+  <ul class="contact-items">
+    <li class="contact-item email-item">
+      <div><span class="item-label">email:</span> <span class="item-value email">email:</span></div>
+    </li>
+    <li class="contact-item mobile-item">
+      <div><span class="item-label">mobile:</span> <span class="item-value mobile">mobile:</span></div>
+    </li>
+    <li class="contact-item location-item">
+      <div><span class="item-label">location:</span> <span class="item-value location">location:</span></div>
+    </li>
+  </ul>
+    
   </div>
 </div>
 `;
@@ -58,8 +73,31 @@ class VerticalUserCardStatic extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
-    this.shadowRoot.querySelector('h3').innerText = this.getAttribute('name');
-    this.shadowRoot.querySelector('img').src = this.getAttribute('avatar');
+    this.shadowRoot.querySelector('h3').textContent = this.getAttribute('name') || 'Employee on smoko';
+    this.shadowRoot.querySelector('img').src = this.getAttribute('avatar') || '../../../assets/icon-7797704_640.png';
+    this.shadowRoot.querySelector('.position').textContent = this.getAttribute('position') || '';
+
+    // list items for contact info
+    const email = this.getAttribute('email');
+    const mobile = this.getAttribute('mobile');
+    const location = this.getAttribute('location');
+
+    // hide email-item (list item) if no email (email-value) (vs || '') 
+    if(email) {
+      this.shadowRoot.querySelector('.email').textContent = email;
+    } else {
+      this.shadowRoot.querySelector('.email-item').style.display = 'none';
+    }
+    if(mobile) {
+      this.shadowRoot.querySelector('.mobile').textContent = mobile;
+    } else {
+      this.shadowRoot.querySelector('.mobile-item').style.display = 'none';
+    }
+    if(location) {
+      this.shadowRoot.querySelector('.location').textContent = location;
+    } else {
+      this.shadowRoot.querySelector('.location-item').style.display = 'none';
+    }
   }
 
   // connectedCallback() {

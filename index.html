@@ -113,13 +113,37 @@
           basic contact info.
         </p>
         <div class="demo-container">
-          <static-user-card-vertical name="Mike Brady" avatar="https://static.wikia.nocookie.net/thebradybunch/images/c/ce/Mike-Brady-the-brady-bunch-8032015-543-388.jpg">
-            <p slot="position">Senior Principal Architect</p>
-            <p slot="tenure">22 years</p>
+          <static-user-card-vertical
+            name="Mike Brady"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/c/ce/Mike-Brady-the-brady-bunch-8032015-543-388.jpg"
+            position="Senior Principal Architect"
+            email="bigdaddymike@bradybunch.com"
+          >
+            <div slot="about">
+              <p>
+                Experienced architect specializing in
+                <strong>residential design</strong>.
+              </p>
+              <p>Father of six. <a href="#">Portfolio</a></p>
+            </div>
+          </static-user-card-vertical>
+
+          <static-user-card-vertical
+            name="Carol Brady"
+            avatar="https://static.wikia.nocookie.net/thebradybunch/images/2/2e/Carol-Brady-the-brady-bunch-8032041-550-391.jpg"
+            position="Senior Household Manager"
+            email="cazza@bradybunch.com"
+          >
+            <div slot="about">
+              <p>
+                Witty, savvy, always put together, Carol is the mom of moms.
+                Whether doling advice or consoling Jan, Carol demonstrates
+                superior mommery.
+              </p>
+            </div>
           </static-user-card-vertical>
         </div>
       </section>
-
     </main>
   </body>
 </html>
