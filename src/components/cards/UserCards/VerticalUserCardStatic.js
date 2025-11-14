@@ -26,7 +26,7 @@ template.innerHTML = `
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    box-shadow: rgba(209, 205, 254, 0.5) 0px 4px 12px;
+    box-shadow: rgba(58, 24, 55, 0.3) 0px 4px 7px;
     font-family: "Merriweather", Georgia, 'Times New Roman',  serif;
     padding: 2rem 1rem;
     max-width: 375px;
@@ -50,7 +50,7 @@ template.innerHTML = `
     object-fit: cover;
     }
 
-      .info h3 {
+    .info h3 {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: "Montserrat",Arial, Helvetica, sans-serif;
@@ -63,12 +63,17 @@ template.innerHTML = `
   }
 
   .tenure {
-color: #3e1a3d;
-font-family: "Montserrat",Arial, Helvetica, sans-serif;
+  color: #3e1a3d;
+  font-family: "Montserrat",Arial, Helvetica, sans-serif;
   }
 
     /* about / bio */
-
+::slotted(p:first-of-type) {
+color: red;
+}
+::slotted(p:not(:first-child)) {
+color: blue;
+}
 
 
 </style>
@@ -164,6 +169,10 @@ class VerticalUserCardStatic extends HTMLElement {
     }
   }
 
+
+  // change the option for radius to layout for the info part. updateAvatarRadius to infoLayout?
+  // info section will be col by default or row as an option (image next to position and tensure.  and then image squared)
+  // if no tenure or position, this option can't happen
   // connectedCallback() {
   //   this.updateAvatarRadius();
   // }
@@ -173,8 +182,8 @@ class VerticalUserCardStatic extends HTMLElement {
   //     this.updateAvatarRadius();
   //   }
   // }
-  // add for assigning a class name to infor for horiz layout or vertical
-  // ie avatar next to bio or bio under avatar. card is still horiz, tho
+
+  
   // updateAvatarRadius() {
   //   const rounded = this.getAttribute('avatar-rounded');
   //   console.log(rounded);
@@ -183,6 +192,9 @@ class VerticalUserCardStatic extends HTMLElement {
   //     this.style.setProperty('--avatar-radius', `${value}px`);
   //   }
   // }
+
+  // for toggling the para. first para (now red) shown on load. second or others (now blue) shown on toggle
+
 }
 
 customElements.define('static-user-card-vertical', VerticalUserCardStatic);
