@@ -1,23 +1,18 @@
-// dribbble ideas: https://www.chewy.com/yitahome-cat-litter-box-enclosure-oak/dp/1548222
-// https://dribbble.com/shots/26424007--Profile-Cards-UI-Modern-Minimal-Designs
-// https://dribbble.com/shots/5676730-Team-Section-Qonto
-// https://dribbble.com/shots/9807455-Unused-contact-card-UI-concept
-
-// after styling, address 1 vs 2 para. if 1, no collapse. if 2, the second is an accordion. 
 import alienImg from '../../../assets/alien-294250_640.png';
 const template = document.createElement('template');
 template.innerHTML = `
 <style>
-  /* resets */
+  /* RESETS */
   * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
   li {
-  list-style: none;}
+    list-style: none;
+  }
 
-    /* component */
+    /* COMPONENT */
     /* card */
   .horizontal-card {
     background: #f4f4f4;
@@ -34,8 +29,13 @@ template.innerHTML = `
   
   .info {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+  }
+
+  :host([horizontal-header]) .info {
+    flex-direction: row;
+    gap: 1rem;
   }
 
   .img-container {
@@ -44,13 +44,14 @@ template.innerHTML = `
     overflow: hidden;
     border-radius: 50%;
   }
-  .img-container img {
-  height: 100%;
-  width: 100%;
-    object-fit: cover;
-    }
 
-    .info h3 {
+  .img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .info h3 {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: "Montserrat",Arial, Helvetica, sans-serif;
@@ -68,12 +69,16 @@ template.innerHTML = `
   }
 
     /* about / bio */
-::slotted(p:first-of-type) {
-color: red;
-}
-::slotted(p:not(:first-child)) {
-color: blue;
-}
+    
+  ::slotted(p:first-of-type) {
+    color: red;
+   margin-bottom: 8px;
+  }
+
+  ::slotted(p:not(:first-of-type)) {
+    color: blue;
+    margin-bottom: 8px;
+  }
 
 
 </style>
@@ -83,9 +88,11 @@ color: blue;
     <div class="img-container">
       <img alt="Profile picture"/>
     </div>
-    <h3></h3>
-    <div class="position"><p><span class="position-val"> </span></p></div>
-    <div class="tenure"><p><span class="tenure-val"> </span><span class="years"></span></p></div>
+    <div class="pers-info">
+      <h3></h3>
+      <div class="position"><p><span class="position-val"> </span></p></div>
+      <div class="tenure"><p><span class="tenure-val"> </span><span class="years"></span></p></div>
+    </div>
   </div>
 
   <div class="about">
@@ -113,10 +120,6 @@ color: blue;
 `;
 
 class VerticalUserCardStatic extends HTMLElement {
-  // optional rounded avatar and also optional avatar next to info vs avatar atop info
-  //   static get observedAttributes() {
-  //   return ['avatar-rounded', 'horizontal-info'];
-  // }
 
   constructor() {
     super();
@@ -127,20 +130,21 @@ class VerticalUserCardStatic extends HTMLElement {
     this.shadowRoot.querySelector('img').src =
       this.getAttribute('avatar') || alienImg;
 
-        const position = this.getAttribute('position');
+    const position = this.getAttribute('position');
 
     const tenure = this.getAttribute('tenure');
     const tenureYears = +tenure;
 
-    if(!tenure || isNaN(tenureYears)){
-    // if someone writes more than a number for tenure ("3 years" or "two")
-      this.shadowRoot.querySelector('.tenure').style.display = 'none';  
+    if (!tenure || isNaN(tenureYears)) {
+      // if someone writes more than a number for tenure ("3 years" or "two")
+      this.shadowRoot.querySelector('.tenure').style.display = 'none';
     } else {
       this.shadowRoot.querySelector('.tenure-val').textContent = tenure;
-      this.shadowRoot.querySelector('.years').textContent = tenureYears === 1 ? ' year experience' : ' years\' experience'
+      this.shadowRoot.querySelector('.years').textContent =
+        tenureYears === 1 ? ' year experience' : " years' experience";
     }
 
-    if(position){
+    if (position) {
       this.shadowRoot.querySelector('.position-val').textContent = position;
     } else {
       this.shadowRoot.querySelector('.position').style.display = 'none';
@@ -170,30 +174,7 @@ class VerticalUserCardStatic extends HTMLElement {
   }
 
 
-  // change the option for radius to layout for the info part. updateAvatarRadius to infoLayout?
-  // info section will be col by default or row as an option (image next to position and tensure.  and then image squared)
-  // if no tenure or position, this option can't happen
-  // connectedCallback() {
-  //   this.updateAvatarRadius();
-  // }
 
-  // attributeChangedCallback(name, oldValue, newValue) {
-  //   if (name === 'avatar-rounded') {
-  //     this.updateAvatarRadius();
-  //   }
-  // }
-
-  
-  // updateAvatarRadius() {
-  //   const rounded = this.getAttribute('avatar-rounded');
-  //   console.log(rounded);
-  //   if (rounded) {
-  //     const value = Math.max(2, Math.min(10, parseInt(rounded) || 0));
-  //     this.style.setProperty('--avatar-radius', `${value}px`);
-  //   }
-  // }
-
-  // for toggling the para. first para (now red) shown on load. second or others (now blue) shown on toggle
 
 }
 

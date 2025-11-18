@@ -1,4 +1,7 @@
 const template = document.createElement('template');
+
+// revisit for styling now that global p off. 
+
 template.innerHTML = `
 <style>
   .horizontal-card {
@@ -10,7 +13,6 @@ template.innerHTML = `
     box-shadow: rgba(209, 205, 254, 0.5) 0px 4px 12px;
     padding: 16px 24px;
     font-family: "Merriweather", Georgia, 'Times New Roman',  serif;
-    ›
   }
 
   .horizontal-card h3 {
@@ -72,9 +74,7 @@ template.innerHTML = `
 `;
 
 class HorizontalUserCardStatic extends HTMLElement {
-  // static get observedAttributes() {
-  //   return ['avatar-rounded'];
-  // }
+
   constructor() {
     super();
     // create shadow DOM
@@ -84,8 +84,6 @@ class HorizontalUserCardStatic extends HTMLElement {
     // handle attributes
     this.shadowRoot.querySelector('h3').textContent = this.getAttribute('name');
     this.shadowRoot.querySelector('img').src = this.getAttribute('avatar');
-    //  const rounded = this.getAttribute('avatar-rounded');
-    //  console.log(rounded);
   }
 
   connectedCallback() {
@@ -101,7 +99,6 @@ class HorizontalUserCardStatic extends HTMLElement {
 
   updateAvatarRadius() {
     const rounded = this.getAttribute('avatar-rounded');
-    console.log(rounded);
     if (rounded) {
       // keep value between 2 and 10. If user gives a value greater than 10, it'll be 10.
       const value = Math.max(2, Math.min(10, parseInt(rounded) || 0));
